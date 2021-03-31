@@ -74,6 +74,9 @@ func (ut *UserTest) TestGetUserSkipDB() {
 	getUserSkip.EXPECT().Get(gomock.Any()).Return(resu, nil)
 	//测试接口现在的返回值
 	ut.ex.GET("/get").Expect().Status(200).JSON().Object().ValueEqual("code", 0) //返回 {"code":0,"res":{"Name":"自定义的name","Age":20}}
+
+	// 测试完毕后，将 ut.muserControl.UserModel 的值初始化，避免其它用例本应调用ut.muserControl.UserModel的方法时，由于此处赋值的原因而最张调用了getUserSkip（mocks） 的方法
+	ut.muserControl.UserModel = &model.UserModel{}
 }
 
 func (ut *UserTest) TestUpdateUser() {

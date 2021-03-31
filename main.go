@@ -8,7 +8,7 @@ import (
 
 	_ "test/docs"
 
-	"github.com/swaggo/echo-swagger"
+	echoSwagger "github.com/swaggo/echo-swagger"
 )
 
 // @title Swagger Example API
