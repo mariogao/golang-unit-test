@@ -8,6 +8,8 @@ type User struct {
 	Age  int
 }
 
+//go:generate mockgen -destination=../controller/mocks/user.go -source=user.go -package=mocks . Iuser
+
 //Iuser 接口 mock要用
 type Iuser interface {
 	Get(u *User) (User, error)
