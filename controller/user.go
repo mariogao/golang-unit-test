@@ -2,9 +2,9 @@ package controller
 
 import (
 	"fmt"
-	"test/model"
 
 	"github.com/labstack/echo/v4"
+	"github.com/mariogao/golang-unit-test/model"
 )
 
 // UserControl

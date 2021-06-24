@@ -1,4 +1,4 @@
-module test
+module github.com/mariogao/golang-unit-test
 
 go 1.15
 

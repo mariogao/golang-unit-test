@@ -6,8 +6,8 @@ package mocks
 
 import (
 	gomock "github.com/golang/mock/gomock"
+	model "github.com/mariogao/golang-unit-test/model"
 	reflect "reflect"
-	model "test/model"
 )
 
 // MockIuser is a mock of Iuser interface

@@ -1,12 +1,12 @@
 package main
 
 import (
-	"test/controller"
+	"github.com/mariogao/golang-unit-test/controller"
 
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 
-	_ "test/docs"
+	_ "github.com/mariogao/golang-unit-test/docs"
 
 	echoSwagger "github.com/swaggo/echo-swagger"
 )
