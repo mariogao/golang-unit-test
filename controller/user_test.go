@@ -6,11 +6,10 @@ import (
 	"test/model"
 	"testing"
 
+	"github.com/gavv/httpexpect/v2"
 	"github.com/golang/mock/gomock"
 	"github.com/labstack/echo/v4"
 	"github.com/stretchr/testify/suite"
-
-	"github.com/gavv/httpexpect/v2"
 )
 
 type UserTest struct {

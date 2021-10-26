@@ -19,11 +19,6 @@ func NewUserControl() *UserControl {
 	}
 }
 
-type paramGetUser struct {
-	Name string `josn:"name"`
-	Age  int    `json:"age"`
-}
-
 // GetUser handler
 func (u *UserControl) GetUser(c echo.Context) error {
 	var user = &model.User{}

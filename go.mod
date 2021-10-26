@@ -3,12 +3,14 @@ module test
 go 1.15
 
 require (
+	github.com/agiledragon/gomonkey v2.0.2+incompatible
 	github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751
 	github.com/gavv/httpexpect/v2 v2.1.0
 	github.com/go-openapi/spec v0.20.3 // indirect
 	github.com/golang/mock v1.4.4
 	github.com/labstack/echo/v4 v4.1.17
 	github.com/mailru/easyjson v0.7.7 // indirect
+	github.com/smartystreets/goconvey v1.6.4
 	github.com/stretchr/testify v1.6.1
 	github.com/swaggo/echo-swagger v1.1.0
 	github.com/swaggo/gin-swagger v1.3.0 // indirect
