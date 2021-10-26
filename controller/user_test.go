@@ -2,13 +2,13 @@ package controller
 
 import (
 	"net/http"
-	"test/controller/mocks"
-	"test/model"
 	"testing"
 
 	"github.com/gavv/httpexpect/v2"
 	"github.com/golang/mock/gomock"
 	"github.com/labstack/echo/v4"
+	"github.com/mariogao/golang-unit-test/controller/mocks"
+	"github.com/mariogao/golang-unit-test/model"
 	"github.com/stretchr/testify/suite"
 )
 
