@@ -8,8 +8,9 @@ import (
 	"net/http"
 	"net/http/httptest"
 	"reflect"
-	"test/model"
 	"testing"
+
+	"github.com/mariogao/golang-unit-test/model"
 
 	. "github.com/agiledragon/gomonkey"
 	"github.com/labstack/echo/v4"
