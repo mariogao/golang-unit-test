@@ -32,7 +32,8 @@ func TestGetUserSkip(t *testing.T) {
 		e := echo.New()
 		echoTest := e.NewContext(req, rec)
 		getUser := TG.GetUser(echoTest)
-		fmt.Printf("=== %+v", getUser)
+		fmt.Printf("=== %+v \n", getUser)
+		fmt.Printf("=== %+v \n", rec)
 		c.So(getUser, ShouldBeNil)
 	})
 }
@@ -48,7 +49,8 @@ func TestGetUser(t *testing.T) {
 		e := echo.New()
 		echoTest := e.NewContext(req, rec)
 		getUser := TG.GetUser(echoTest)
-		fmt.Printf("=== %+v", getUser)
+		fmt.Printf("=== %+v \n", getUser)
+		fmt.Printf("=== %+v \n", rec)
 		c.So(getUser, ShouldBeNil)
 	})
 }
