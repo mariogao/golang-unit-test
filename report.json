@@ -1,0 +1,77 @@
+{"Time":"2022-01-14T15:03:25.503538952+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test","Output":"?   \tgithub.com/mariogao/golang-unit-test\t[no test files]\n"}
+{"Time":"2022-01-14T15:03:25.50378469+08:00","Action":"skip","Package":"github.com/mariogao/golang-unit-test","Elapsed":0}
+{"Time":"2022-01-14T15:03:25.808887367+08:00","Action":"run","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestGetUserSkip"}
+{"Time":"2022-01-14T15:03:25.808976071+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestGetUserSkip","Output":"=== RUN   TestGetUserSkip\n"}
+{"Time":"2022-01-14T15:03:25.809013778+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestGetUserSkip","Output":"\n"}
+{"Time":"2022-01-14T15:03:25.809098164+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestGetUserSkip","Output":"  test GetUser get接收： \u0026{test 0}\n"}
+{"Time":"2022-01-14T15:03:25.809130715+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestGetUserSkip","Output":"get输出u: {convey test 0}\n"}
+{"Time":"2022-01-14T15:03:25.851598251+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestGetUserSkip","Output":"42203218\n"}
+{"Time":"2022-01-14T15:03:25.851730361+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestGetUserSkip","Output":"=== \u003cnil\u003e \n"}
+{"Time":"2022-01-14T15:03:25.85176869+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestGetUserSkip","Output":"=== \u0026{Code:200 HeaderMap:map[Content-Type:[application/json; charset=UTF-8]] Body:{\"code\":0,\"res\":{\"Name\":\"convey test\",\"Age\":0}}\n"}
+{"Time":"2022-01-14T15:03:25.85180137+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestGetUserSkip","Output":" Flushed:false result:\u003cnil\u003e snapHeader:map[Content-Type:[application/json; charset=UTF-8]] wroteHeader:true} \n"}
+{"Time":"2022-01-14T15:03:25.851831446+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestGetUserSkip","Output":"\u001b[32m✔\u001b[0m\n"}
+{"Time":"2022-01-14T15:03:25.851863925+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestGetUserSkip","Output":"\n"}
+{"Time":"2022-01-14T15:03:25.851892989+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestGetUserSkip","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
+{"Time":"2022-01-14T15:03:25.851931012+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestGetUserSkip","Output":"1 total assertion\u001b[0m\n"}
+{"Time":"2022-01-14T15:03:25.851961642+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestGetUserSkip","Output":"\n"}
+{"Time":"2022-01-14T15:03:25.852006138+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestGetUserSkip","Output":"--- PASS: TestGetUserSkip (0.04s)\n"}
+{"Time":"2022-01-14T15:03:25.852046867+08:00","Action":"pass","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestGetUserSkip","Elapsed":0.04}
+{"Time":"2022-01-14T15:03:25.852095534+08:00","Action":"run","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestGetUser"}
+{"Time":"2022-01-14T15:03:25.852135721+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestGetUser","Output":"=== RUN   TestGetUser\n"}
+{"Time":"2022-01-14T15:03:25.852171652+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestGetUser","Output":"\n"}
+{"Time":"2022-01-14T15:03:25.85220232+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestGetUser","Output":"  test GetUser get接收： \u0026{test 0}\n"}
+{"Time":"2022-01-14T15:03:25.852269937+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestGetUser","Output":"2022/01/14 15:03:25 执行了Get方法\n"}
+{"Time":"2022-01-14T15:03:25.852299082+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestGetUser","Output":"get输出u: {数据库读到的name 15}\n"}
+{"Time":"2022-01-14T15:03:25.89316512+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestGetUser","Output":"40793852\n"}
+{"Time":"2022-01-14T15:03:25.893253095+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestGetUser","Output":"=== \u003cnil\u003e \n"}
+{"Time":"2022-01-14T15:03:25.893280662+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestGetUser","Output":"=== \u0026{Code:200 HeaderMap:map[Content-Type:[application/json; charset=UTF-8]] Body:{\"code\":0,\"res\":{\"Name\":\"数据库读到的name\",\"Age\":15}}\n"}
+{"Time":"2022-01-14T15:03:25.893309567+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestGetUser","Output":" Flushed:false result:\u003cnil\u003e snapHeader:map[Content-Type:[application/json; charset=UTF-8]] wroteHeader:true} \n"}
+{"Time":"2022-01-14T15:03:25.893331111+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestGetUser","Output":"\u001b[32m✔\u001b[0m\n"}
+{"Time":"2022-01-14T15:03:25.893352347+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestGetUser","Output":"\n"}
+{"Time":"2022-01-14T15:03:25.893373855+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestGetUser","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
+{"Time":"2022-01-14T15:03:25.893394089+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestGetUser","Output":"2 total assertions\u001b[0m\n"}
+{"Time":"2022-01-14T15:03:25.893417896+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestGetUser","Output":"\n"}
+{"Time":"2022-01-14T15:03:25.893451093+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestGetUser","Output":"--- PASS: TestGetUser (0.04s)\n"}
+{"Time":"2022-01-14T15:03:25.893475634+08:00","Action":"pass","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestGetUser","Elapsed":0.04}
+{"Time":"2022-01-14T15:03:25.893497951+08:00","Action":"run","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestUserController"}
+{"Time":"2022-01-14T15:03:25.893518747+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestUserController","Output":"=== RUN   TestUserController\n"}
+{"Time":"2022-01-14T15:03:25.893640989+08:00","Action":"run","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestUserController/TestGetUser"}
+{"Time":"2022-01-14T15:03:25.893679279+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestUserController/TestGetUser","Output":"=== RUN   TestUserController/TestGetUser\n"}
+{"Time":"2022-01-14T15:03:25.893706802+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestUserController/TestGetUser","Output":"get接收： \u0026{ 0}\n"}
+{"Time":"2022-01-14T15:03:25.893732076+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestUserController/TestGetUser","Output":"2022/01/14 15:03:25 执行了Get方法\n"}
+{"Time":"2022-01-14T15:03:25.893758673+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestUserController/TestGetUser","Output":"get输出u: {数据库读到的name 15}\n"}
+{"Time":"2022-01-14T15:03:25.935032566+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestUserController/TestGetUser","Output":"41017146\n"}
+{"Time":"2022-01-14T15:03:25.935370246+08:00","Action":"run","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestUserController/TestGetUserSkipDB"}
+{"Time":"2022-01-14T15:03:25.935487709+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestUserController/TestGetUserSkipDB","Output":"=== RUN   TestUserController/TestGetUserSkipDB\n"}
+{"Time":"2022-01-14T15:03:25.935598697+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestUserController/TestGetUserSkipDB","Output":"get接收： \u0026{ 0}\n"}
+{"Time":"2022-01-14T15:03:25.935698011+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestUserController/TestGetUserSkipDB","Output":"get输出u: {自定义的name 20}\n"}
+{"Time":"2022-01-14T15:03:25.978441367+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestUserController/TestGetUserSkipDB","Output":"41961955\n"}
+{"Time":"2022-01-14T15:03:25.97870253+08:00","Action":"run","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestUserController/TestUpdateUser"}
+{"Time":"2022-01-14T15:03:25.978843801+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestUserController/TestUpdateUser","Output":"=== RUN   TestUserController/TestUpdateUser\n"}
+{"Time":"2022-01-14T15:03:25.978962549+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestUserController/TestUpdateUser","Output":"post接收： \u0026{test name 19}\n"}
+{"Time":"2022-01-14T15:03:25.979055752+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestUserController/TestUpdateUser","Output":"2022/01/14 15:03:25 执行了Update方法\n"}
+{"Time":"2022-01-14T15:03:25.979139198+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestUserController/TestUpdateUser","Output":"post err： \u003cnil\u003e\n"}
+{"Time":"2022-01-14T15:03:25.979219645+08:00","Action":"run","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestUserController/TestUpdateUserSkipDB"}
+{"Time":"2022-01-14T15:03:25.979318887+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestUserController/TestUpdateUserSkipDB","Output":"=== RUN   TestUserController/TestUpdateUserSkipDB\n"}
+{"Time":"2022-01-14T15:03:25.979458534+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestUserController/TestUpdateUserSkipDB","Output":"post接收： \u0026{test name 18}\n"}
+{"Time":"2022-01-14T15:03:25.979809138+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestUserController/TestUpdateUserSkipDB","Output":"post err： \u003cnil\u003e\n"}
+{"Time":"2022-01-14T15:03:25.979984704+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestUserController","Output":"--- PASS: TestUserController (0.09s)\n"}
+{"Time":"2022-01-14T15:03:25.980148044+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestUserController/TestGetUser","Output":"    --- PASS: TestUserController/TestGetUser (0.04s)\n"}
+{"Time":"2022-01-14T15:03:25.980301507+08:00","Action":"pass","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestUserController/TestGetUser","Elapsed":0.04}
+{"Time":"2022-01-14T15:03:25.980458617+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestUserController/TestGetUserSkipDB","Output":"    --- PASS: TestUserController/TestGetUserSkipDB (0.04s)\n"}
+{"Time":"2022-01-14T15:03:25.980655313+08:00","Action":"pass","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestUserController/TestGetUserSkipDB","Elapsed":0.04}
+{"Time":"2022-01-14T15:03:25.980778261+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestUserController/TestUpdateUser","Output":"    --- PASS: TestUserController/TestUpdateUser (0.00s)\n"}
+{"Time":"2022-01-14T15:03:25.980987113+08:00","Action":"pass","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestUserController/TestUpdateUser","Elapsed":0}
+{"Time":"2022-01-14T15:03:25.981102473+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestUserController/TestUpdateUserSkipDB","Output":"    --- PASS: TestUserController/TestUpdateUserSkipDB (0.00s)\n"}
+{"Time":"2022-01-14T15:03:25.981220944+08:00","Action":"pass","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestUserController/TestUpdateUserSkipDB","Elapsed":0}
+{"Time":"2022-01-14T15:03:25.981335928+08:00","Action":"pass","Package":"github.com/mariogao/golang-unit-test/controller","Test":"TestUserController","Elapsed":0.09}
+{"Time":"2022-01-14T15:03:25.981454616+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Output":"PASS\n"}
+{"Time":"2022-01-14T15:03:25.981589758+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Output":"coverage: 72.7% of statements in ./...\n"}
+{"Time":"2022-01-14T15:03:25.982484408+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller","Output":"ok  \tgithub.com/mariogao/golang-unit-test/controller\t0.178s\tcoverage: 72.7% of statements in ./...\n"}
+{"Time":"2022-01-14T15:03:25.982601656+08:00","Action":"pass","Package":"github.com/mariogao/golang-unit-test/controller","Elapsed":0.178}
+{"Time":"2022-01-14T15:03:25.989075277+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/controller/mocks","Output":"?   \tgithub.com/mariogao/golang-unit-test/controller/mocks\t[no test files]\n"}
+{"Time":"2022-01-14T15:03:25.989205267+08:00","Action":"skip","Package":"github.com/mariogao/golang-unit-test/controller/mocks","Elapsed":0}
+{"Time":"2022-01-14T15:03:25.98930784+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/docs","Output":"?   \tgithub.com/mariogao/golang-unit-test/docs\t[no test files]\n"}
+{"Time":"2022-01-14T15:03:25.989393147+08:00","Action":"skip","Package":"github.com/mariogao/golang-unit-test/docs","Elapsed":0}
+{"Time":"2022-01-14T15:03:25.989468328+08:00","Action":"output","Package":"github.com/mariogao/golang-unit-test/model","Output":"?   \tgithub.com/mariogao/golang-unit-test/model\t[no test files]\n"}
+{"Time":"2022-01-14T15:03:25.989556176+08:00","Action":"skip","Package":"github.com/mariogao/golang-unit-test/model","Elapsed":0}
