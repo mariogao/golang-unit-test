@@ -1,4 +1,4 @@
-
+# docker build -t userut:v1 .
 FROM golang
 
 WORKDIR /src
